@@ -1,6 +1,5 @@
 import React from "react";
 import "./project-details.css";
-
 const ProjectDetails = ({ project, onClose }) => {
   return (
     <div className="project-detail">
