@@ -1,0 +1,53 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  width: 350px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card-content {
+  padding: 20px;
+}
+
+.project-card h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.chip-container > p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.chip {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: aliceblue !important;
+  color: #333 !important;
+  border-radius: 15px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+}

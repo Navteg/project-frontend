@@ -1,0 +1,26 @@
+
+  .project-detail {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: -20px;
+  }
+
+  .close-button {
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .close-button:hover {
+    background-color: aliceblue;
+  }
